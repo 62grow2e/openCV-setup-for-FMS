@@ -1,5 +1,5 @@
 # openCV-setup-for-FMS
-## コンピュータビジョンでopenCVのsetupで苦労してるMac User向け。
+## コンピュータビジョンでopenCVのsetupで苦労してるFMSのMac User向け。
 ### Macportではなくhomebrew使う & 画像をソースコードの近所に配置する ver.
 ### 2015.10.07
 
@@ -22,13 +22,15 @@
 1. Terminalで`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`をコピペしてreturn
   - Terminalはspotlightから探せばよい
 2. なんか終わったっぽかったら`brew install opencv3`と打ってreturn
+  - よく知らないけどpasswordとか聞かれたら打ってください
 3. なんか終わったっぽかったら成功
+  - 結構時間かかる 
 4. Terminal以下のコマンドを1行ずつ打ち込む
-  ~~~
+~~~
   cd ~/../../usr/local/Cellar/opencv3/3.0.0
   pwd
   open .
-  ~~~
+~~~
   - これでFinderが出てくる。あとで使うのでそのままで
   - `pwd`で出てきたpathもあとで使う
 
